@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💌 Carta de San Valentín</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="musica" loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="contenedor">
+        <!-- Sobre cerrado -->
+        <div class="sobre" id="sobre" onclick="abrirCarta()">
+            <div class="tapa"></div>
+            <div class="base"></div>
+            <p class="mensaje">💌 Haz clic para abrir</p>
+        </div>
+
+        <!-- Carta oculta dentro del sobre -->
+        <div class="carta" id="carta">
+     <h1>💖Para Mi Mejor Amiga💖</h1>
+     <img src="imagenes/WhatsApp Image 2025-02-01 at 12.44.39 PM.jpeg" alt="Imagenes" class="imagen">
+                <p>Mi GRESPA</p>
+            <p>Desde que te conocí, supe que eras mi mejor elección. 💕</p>
+            <p>Gracias por ser mi compañera de aventuras, amiga y aunque no somos familia ❤️</p>
+            <p>Te quiero como una con todo mi corazón. ¡Feliz San Valentín! 🎀✨</p>
+            <p>💻 Siempre juntas; como el mejor código jamás escrito. 💻</p>
+            <button onclick="cerrarcarta()">cerrarcarta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
